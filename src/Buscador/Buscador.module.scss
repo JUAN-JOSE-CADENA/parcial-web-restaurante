@@ -1,0 +1,51 @@
+.buscador{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2rem;
+
+    color: white    ;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+
+    overflow: hidden;
+    img{
+        max-width: 100%;
+        min-height: 100%;
+        contain: content;
+
+        position: absolute;
+        filter: contrast(105%) brightness(30%);
+    }
+    h1{
+
+        z-index: 1;
+    }
+    .finds{
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        h4{
+            color: black;
+        }
+        a{
+            text-decoration: none;
+        }
+        .cardimg{
+            width: 12rem;
+            img{
+
+                filter: none;
+            }
+        }
+    }
+}
