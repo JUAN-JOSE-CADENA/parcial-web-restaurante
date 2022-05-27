@@ -1,3 +1,6 @@
+Esta aplicacion web construida en react js onsta de un restaurante el cual cuenta con un login con validacion de la contraseña, en el registro se evidencia de igual forma. La forma para ingresar es usando el correo electronico y la contraseña, una vez ingresamos podemos ver un input donde ingresamos minimo 3 letras para buscar una ciudad, al hacerlo nos apareceran los restaurantes que se encuentran en dicha ciudad, seleccionamos uno de los restaurantes y nos dara una descripcion del sitio.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
